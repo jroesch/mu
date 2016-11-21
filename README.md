@@ -12,7 +12,7 @@ tools and package managers, primarily:
 
 In its simplest form just drop into a directory with some Lean code and type:
 ```
-gallus build
+mu build
 ```
 
 The normal way to interact with `mu` is via a file named `Mu.toml` in
