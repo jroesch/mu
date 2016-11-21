@@ -1,0 +1,23 @@
+[package]
+name = "mu"
+version = "0.1.1"
+authors = ["Jared Roesch <jroesch@cs.washington.edu>"]
+
+[dependencies]
+docopt = "0.6"
+topological-sort = "0.0"
+rustc-serialize = "0.3"
+# git2 = "0.3"
+log = "0.3"
+env_logger = "0.3"
+toml = "0.2"
+# regex = "0.1"
+
+[lib]
+name = "mu"
+path = "src/mu/lib.rs"
+
+[[bin]]
+name = "mu"
+test = false
+doc = false
