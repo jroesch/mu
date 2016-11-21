@@ -1,31 +1,24 @@
-# Gallus: Modernize your Coq developments!
+# Mu : build tooling & package management for Lean
 
-`gallus` is a build tool for Coq designed to make it easier to reliably
-distribute and build software written in Coq.
+`mu` is a build tool for Lean designed to make it easier to reliably distribute
+and build both software and formalized mathematics with Lean.
 
-Gallus' design is heavily inspired by experience with other language's build
+Mu's design is heavily inspired by experience with other language's build
 tools and package managers, primarily:
   - [Cargo](https://github.com/rust-lang/cargo)
-  - [Cabal](https://www.haskell.org/cabal/),
+  - [Cabal](https://www.haskell.org/cabal/)f
   - [SBT](http://www.scala-sbt.org/)
   - [Bundler](http://bundler.io/)
 
-It is designed to eventually interoperate with variety of existing tools
-that are used with Coq, such as:
-- make
-- opam
-- coqdep
-- and hopefully more
-
-In its simplest form just drop into a directory with some Coq code and type:
+In its simplest form just drop into a directory with some Lean code and type:
 ```
 gallus build
 ```
 
-The normal way to interact with `gallus` is via a file named `Gallus.toml` in
+The normal way to interact with `mu` is via a file named `Mu.toml` in
 the root of your project.
 
-Here is an example `Gallus.toml`:
+Here is an example `Mu.toml`:
 
 ```toml
 [package]
@@ -34,6 +27,6 @@ version = "0.0.1"
 authors = ["Jared Roesch <jroesch@cs.washington.edu>"]
 ```
 
-At this time Gallus is very much a work in progress and should be treated as
+At this time Mu is very much a work in progress and should be treated as
 alpha quality software, if you happen to stumble upon it and would like to
 contribute or provide feedback please contact me or file an issue.
