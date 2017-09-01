@@ -6,7 +6,7 @@ and build both software and formalized mathematics with Lean.
 Mu's design is heavily inspired by experience with other language's build
 tools and package managers, primarily:
   - [Cargo](https://github.com/rust-lang/cargo)
-  - [Cabal](https://www.haskell.org/cabal/)f
+  - [Cabal](https://www.haskell.org/cabal/)
   - [SBT](http://www.scala-sbt.org/)
   - [Bundler](http://bundler.io/)
 
